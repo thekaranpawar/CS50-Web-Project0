@@ -1,0 +1,88 @@
+#navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-item{
+    margin: 25px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+}
+.round-input{
+    display: flex;
+    z-index: 3;
+    height: 30px;
+    background-color: #f0eaea;
+    border: 1px solid #f0eaea;
+    box-shadow: none;
+    border-radius: 14px;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 35px;
+}
+.btn-google{
+    background-color: #f0eaea;
+    border: 1px solid #f0eaea;
+    border-radius: 4px;
+    color: #000;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    margin: 10px 5px;
+    padding: 0 12px;
+    line-height: 27px;
+    height: 30px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+h1{
+    color: red;
+    font-size: 20px;
+    margin: 25px 33px;
+}
+hr{
+    color: gray;
+}
+h2{
+    font-size: 18px;
+    color: #333;
+}
+.div-advance{
+    margin: 50px;
+}
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.left{
+    width: 200px;
+}
+.form-input{
+    width: 385px;
+    height:20px;
+}
+.text-advance{
+    font-size: 17px;
+    vertical-align: middle;
+}
+.btn-advance{
+    background-color: #4d90fe;
+    border: 1px solid red;
+    color: #fff;
+}
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 25px;
+}
